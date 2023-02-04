@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/navbar.css">
+    <!--<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.0/papaparse.min.js"></script>-->
+    
+
+  </head>
+  <body>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.0/d3.min.js" 
+      integrity="sha512-jXsLjbg/Pr8F5U2evjFaEci7mImlUix865lbvnNmp5TzS86+VTTFVDz7FFTS6VHdhSn7UJ4tjZdvpp0GgT0fZA==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!--<nav>
+        <div class="title">tal.OS - Electricity manager</div>
+        <div class="links">
+          <a href="/">Home</a>
+          <a href="/pages/dashboard.html">Dashboard</a>
+          <a href="/pages/graphs.html" class="active">Graphs</a>
+          <a href="/pages/about.html">About</a>
+          <a href="/pages/contact.html">Contact</a>
+        </div>
+      </nav>-->
+    <h1 class="welcome-text">Welcome to the dashboard</h1>
+    <div class ="horizontal">
+      <div>
+        <p style="color:rgb(255, 255, 255);font-weight: bold;">Date</p>
+        <select id = "time_frame">
+          <option value ="day">Day</option>
+          <option value ="month">Month</option>
+          <option value = "year">Year</option>
+        </select>
+      </div>
+      <div>
+        <p style="color:rgb(255, 255, 255);font-weight: bold;">Pick a date:</p>
+        <input type="date" id="pick_date" style="width:200px;height:30px;font-size:15px;">
+      </div>
+      
+    </div>
+    
+    <div class="chartCard">
+      <div class="chartBox">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <script src="/scripts/graph_script.js">
+      
+      </script>
+  </body>
+</html>

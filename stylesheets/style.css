@@ -1,0 +1,125 @@
+/* Style for the homepage content */
+body {
+  background-color: #474747;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(60, 59, 59); /* Add this line to change the body text color to white */
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.welcome {
+  font-size: 32px;
+  font-weight: bold;
+}
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.horizontal div{
+  float: left;
+  clear: none;
+  width: 25%;
+}
+
+select {
+  width: 50%;
+  
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the options in the dropdown menu */
+option {
+  background-color: #f2f2f2;
+}
+
+/* Style the dropdown button when the user hovers over it with the mouse */
+select:hover {
+  border: 2px solid #555;
+}
+
+form {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#gauge_div {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#gauge_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.landing {
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-container {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+

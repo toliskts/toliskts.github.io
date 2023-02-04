@@ -1,0 +1,1 @@
+Power,20.6 W,Voltage,230.44 V,Overall,53 Wh,PF,0.54,Reactive power,32.37 VAR
